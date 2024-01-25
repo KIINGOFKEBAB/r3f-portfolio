@@ -1,0 +1,36 @@
+body{
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    font-weight: bold;
+    font-size: 15px;
+    padding: 15px 0;
+    min-width: 250px;
+    border-radius: 50px;
+    text-align: center;
+    color: #1da1f2;
+    cursor: pointer;
+    transition: all .2s;}
+
+.retour{
+    background: linear-gradient(45deg, #1da1f2, #0e71c8);
+    box-shadow: 0 4px 30px rgba(19, 127, 212, 0.4);
+
+    &:hover{
+      box-shadow: 0 7px 30px rgba(19, 127, 212, 0.4);
+    }
+  }
+
+  canvas{
+    width: 1200px !important;
+    height: 675px !important;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-width: 20px;
+    border-color: red;
+  }
+  
