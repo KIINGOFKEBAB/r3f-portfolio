@@ -7,7 +7,11 @@ const sr = ScrollReveal({
     delay:'1000'
 })
 
+
 sr.reveal('.card')
+sr.reveal('#card_qualities_left', {interval: '100', origin: 'left'})
+sr.reveal('#card_qualities_right', {interval: '100', origin: 'right'})
+sr.reveal('.left', {interval: '100', origin: 'bottom'})
 
 
 

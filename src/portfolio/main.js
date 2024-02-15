@@ -1,5 +1,7 @@
 import "./style/style.scss";
-import "./style/space.scss"
+import "./style/space.scss";
+import "./style/face.scss";
+
 import * as THREE from "three";
 import { OBJLoader } from 'three/examples/jsm/loaders/OBJLoader'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
